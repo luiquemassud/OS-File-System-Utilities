@@ -11,3 +11,5 @@ Used interfaces: stat(), opendir(), readdir(), getcwd()
 Used interfaces: stat(), lseek(), open(), read(), close().
 
 4. Recursive Search: Write a program that prints out the names of each file and directory in the file system tree, starting at a given point in the tree. For example, when run without arguments, the program should start with the current working directory and print its contents, as well as the contents of any sub-directories, etc., until the entire tree, root at the CWD, is printed. If given a single argument (of a directory name), use that as the root of the tree instead.
+
+To run, makefile!
